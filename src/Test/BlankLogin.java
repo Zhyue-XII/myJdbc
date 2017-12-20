@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class BlankLogin {
     public static void main(String[] args) {
-        System.out.println("========登陆========");
+        System.out.println("========登陆账号========");
         UserDao dao = new UserDao();
         String sql = "SELECT * FROM user WHERE user_name=? AND user_psd = ?";
         Scanner s = new Scanner(System.in);
